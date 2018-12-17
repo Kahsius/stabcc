@@ -42,7 +42,7 @@ X = [X[0][:, i*10:(i+1)*10] for i in range(N_VIEWS)]
 if __name__ == '__main__':
 
     # Creation du dossier de sauvegarde du test courant
-    dirname = "clusters{}_classes{}_iter{}".format(N_CLUSTERS, N_CLASSES, 
+    dirname = "test1/clusters{}_classes{}_iter{}".format(N_CLUSTERS, N_CLASSES, 
             N_ITER)
     system("mkdir " + dirname)
 
